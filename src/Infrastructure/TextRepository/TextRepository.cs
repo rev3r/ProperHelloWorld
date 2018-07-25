@@ -4,7 +4,7 @@ using Core.Interfaces;
 namespace Infrastructure.TextRepository
 {
 	public class TextRepository : ITextRepository
-    {
+	{
 		public TextDto GetWelcomeText()
 		{
 			return new TextDto
@@ -12,5 +12,5 @@ namespace Infrastructure.TextRepository
 				Text = "Hello World!"
 			};
 		}
-    }
+	}
 }

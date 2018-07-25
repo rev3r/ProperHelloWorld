@@ -4,8 +4,8 @@ using Xunit;
 
 namespace UnitTests.Infrastructure.TextRepositoryTests
 {
-    public class GetWelcomeText
-    {
+	public class GetWelcomeText
+	{
 		private readonly ITextRepository repository;
 
 		public GetWelcomeText()

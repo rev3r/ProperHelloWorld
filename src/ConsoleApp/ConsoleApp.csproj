@@ -7,13 +7,13 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="AutoMapper" Version="7.0.1" />
-	  <PackageReference Include="Unity" Version="5.8.6" />
+		<PackageReference Include="AutoMapper" Version="7.0.1" />
+		<PackageReference Include="Unity" Version="5.8.6" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\Core\Core.csproj" />
-	  <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
+		<ProjectReference Include="..\Core\Core.csproj" />
+		<ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
 	</ItemGroup>
 
 </Project>

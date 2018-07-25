@@ -8,7 +8,7 @@ using Xunit;
 
 namespace UnitTests.Core.TextServiceTests
 {
-    public class GetText
+	public class GetText
 	{
 		private readonly ITextService service;
 

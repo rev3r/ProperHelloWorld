@@ -7,8 +7,8 @@ using Xunit;
 
 namespace UnitTests.ConsoleApp.ConsoleServiceTests
 {
-    public class Display
-    {
+	public class Display
+	{
 		private readonly IConsoleService service;
 
 		public Display()
@@ -23,8 +23,7 @@ namespace UnitTests.ConsoleApp.ConsoleServiceTests
 			{
 				Console.SetOut(sw);
 
-				service.Display(new TextViewModel
-				{
+				service.Display(new TextViewModel {
 					Text = "TEST"
 				});
 

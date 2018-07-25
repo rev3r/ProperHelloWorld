@@ -4,8 +4,8 @@ using Core.Interfaces;
 
 namespace Core.Services
 {
-    public class TextService : ITextService
-    {
+	public class TextService : ITextService
+	{
 		private readonly ITextRepository repository;
 		private readonly IMapper mapper;
 
@@ -23,5 +23,5 @@ namespace Core.Services
 
 			return mapper.Map<TextEntity>(dto);
 		}
-    }
+	}
 }

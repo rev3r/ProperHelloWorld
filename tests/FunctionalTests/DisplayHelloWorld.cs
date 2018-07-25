@@ -5,7 +5,7 @@ using Xunit;
 
 namespace FunctionalTests
 {
-    public class DisplayHelloWorld
+	public class DisplayHelloWorld
 	{
 		[Fact]
 		public void Invokation_DisplaysHelloWorld()
@@ -20,5 +20,5 @@ namespace FunctionalTests
 				Assert.Equal(expected, sw.ToString());
 			}
 		}
-    }
+	}
 }

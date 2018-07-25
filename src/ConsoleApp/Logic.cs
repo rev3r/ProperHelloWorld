@@ -5,7 +5,7 @@ using Core.Interfaces;
 
 namespace ConsoleApp
 {
-    public class Logic : ILogic
+	public class Logic : ILogic
 	{
 		private readonly ITextService textService;
 		private readonly IConsoleService consoleService;
@@ -28,5 +28,5 @@ namespace ConsoleApp
 			var viewModel = mapper.Map<TextViewModel>(entity);
 			consoleService.Display(viewModel);
 		}
-    }
+	}
 }

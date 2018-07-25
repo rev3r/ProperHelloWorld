@@ -2,8 +2,8 @@
 
 namespace Core.Interfaces
 {
-    public interface ITextService
-    {
+	public interface ITextService
+	{
 		TextEntity GetText();
 	}
 }

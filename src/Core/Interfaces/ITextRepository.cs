@@ -2,8 +2,8 @@
 
 namespace Core.Interfaces
 {
-    public interface ITextRepository
-    {
+	public interface ITextRepository
+	{
 		TextDto GetWelcomeText();
 	}
 }

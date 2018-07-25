@@ -1,7 +1,7 @@
 ﻿namespace ConsoleApp.Interfaces
 {
-    public interface ILogic
-    {
+	public interface ILogic
+	{
 		void Run();
 	}
 }

@@ -2,8 +2,8 @@
 
 namespace ConsoleApp.Interfaces
 {
-    public interface IConsoleService
-    {
+	public interface IConsoleService
+	{
 		void Display(TextViewModel viewModel);
 	}
 }

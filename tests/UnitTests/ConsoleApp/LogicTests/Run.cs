@@ -10,7 +10,7 @@ using Xunit;
 
 namespace UnitTests.ConsoleApp.LogicTests
 {
-    public class Run
+	public class Run
 	{
 		private readonly ILogic logic;
 
@@ -30,7 +30,7 @@ namespace UnitTests.ConsoleApp.LogicTests
 			A.CallTo(() => consoleService.Display(
 				A<TextViewModel>.That.Not.Matches(vm => vm.Text == "TEST")))
 				.Throws<ArgumentException>();
-			
+
 		}
 
 		[Fact]

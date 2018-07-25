@@ -11,13 +11,12 @@ using Unity;
 
 namespace ConsoleApp
 {
-    public class Program
-    {
-		private static readonly UnityContainer container =
-			new UnityContainer();
+	public class Program
+	{
+		private static readonly UnityContainer container = new UnityContainer();
 
-        public static void Main()
-        {
+		public static void Main()
+		{
 			ConfigureDependecies();
 
 			CreateLogic().Run();
