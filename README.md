@@ -20,7 +20,7 @@ I should use **layers**.
 
 # Null checking
 
-I know that this code doesn't check for null anywhere.
+I know that this code doesn't check for `null` anywhere.
 
 This would unnecessarily pollute source code.
 
