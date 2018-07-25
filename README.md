@@ -1,6 +1,6 @@
 # Reason
 
-Everyone starts learning how to code by writing simple `Hello World` program:
+Everyone starts learning how to code by writing simple *Hello World* program:
 
 ```C#
 using System;
