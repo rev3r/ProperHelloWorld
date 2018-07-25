@@ -2,6 +2,11 @@
 {
 	public class TextDto
 	{
-		public string Text { get; set; }
+		public string Text { get; }
+
+		public TextDto(string text)
+		{
+			Text = text;
+		}
 	}
 }

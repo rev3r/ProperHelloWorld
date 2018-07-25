@@ -7,10 +7,7 @@ namespace Infrastructure.TextRepository
 	{
 		public TextDto GetWelcomeText()
 		{
-			return new TextDto
-			{
-				Text = "Hello World!"
-			};
+			return new TextDto("Hello World!");
 		}
 	}
 }

@@ -23,10 +23,7 @@ namespace UnitTests.ConsoleApp.ConsoleServiceTests
 			{
 				Console.SetOut(sw);
 
-				service.Display(new TextViewModel
-				{
-					Text = "TEST"
-				});
+				service.Display(new TextViewModel("TEST"));
 
 				var expected = string.Format("TEST" + Environment.NewLine);
 				Assert.Equal(expected, sw.ToString());

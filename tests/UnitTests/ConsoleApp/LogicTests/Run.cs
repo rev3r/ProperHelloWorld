@@ -22,10 +22,10 @@ namespace UnitTests.ConsoleApp.LogicTests
 			logic = new Logic(textService, mapper, consoleService);
 
 			A.CallTo(() => textService.GetText())
-				.Returns(new TextEntity { Text = "TEST" });
+				.Returns(new TextEntity("TEST"));
 
 			A.CallTo(() => mapper.Map<TextViewModel>(A<TextEntity>._))
-				.Returns(new TextViewModel { Text = "TEST" });
+				.Returns(new TextViewModel("TEST"));
 
 			A.CallTo(() => consoleService.Display(
 				A<TextViewModel>.That.Not.Matches(vm => vm.Text == "TEST")))

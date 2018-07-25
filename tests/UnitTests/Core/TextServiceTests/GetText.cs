@@ -19,10 +19,10 @@ namespace UnitTests.Core.TextServiceTests
 			service = new TextService(repository, mapper);
 
 			A.CallTo(() => repository.GetWelcomeText())
-				.Returns(new TextDto { Text = "TEST" });
+				.Returns(new TextDto("TEST"));
 
 			A.CallTo(() => mapper.Map<TextEntity>(A<TextDto>._))
-				.Returns(new TextEntity { Text = "TEST" });
+				.Returns(new TextEntity("TEST"));
 		}
 
 		[Fact]
