@@ -14,11 +14,11 @@ namespace UnitTests.Core.TextServiceTests
 
 		public GetText()
 		{
-			var textRepository = A.Fake<ITextRepository>();
+			var repository = A.Fake<ITextRepository>();
 			var mapper = A.Fake<IMapper>();
-			service = new TextService(textRepository, mapper);
+			service = new TextService(repository, mapper);
 
-			A.CallTo(() => textRepository.GetWelcomeText())
+			A.CallTo(() => repository.GetWelcomeText())
 				.Returns(new TextDto { Text = "TEST" });
 
 			A.CallTo(() => mapper.Map<TextEntity>(A<TextDto>._))

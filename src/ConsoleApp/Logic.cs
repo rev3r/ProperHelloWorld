@@ -8,13 +8,13 @@ namespace ConsoleApp
 	public class Logic : ILogic
 	{
 		private readonly ITextService textService;
-		private readonly IConsoleService consoleService;
 		private readonly IMapper mapper;
+		private readonly IConsoleService consoleService;
 
 		public Logic(
 			ITextService textService,
-			IConsoleService consoleService,
-			IMapper mapper)
+			IMapper mapper,
+			IConsoleService consoleService)
 		{
 			this.consoleService = consoleService;
 			this.mapper = mapper;

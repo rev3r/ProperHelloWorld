@@ -17,9 +17,9 @@ namespace UnitTests.ConsoleApp.LogicTests
 		public Run()
 		{
 			var textService = A.Fake<ITextService>();
-			var consoleService = A.Fake<IConsoleService>();
 			var mapper = A.Fake<IMapper>();
-			logic = new Logic(textService, consoleService, mapper);
+			var consoleService = A.Fake<IConsoleService>();
+			logic = new Logic(textService, mapper, consoleService);
 
 			A.CallTo(() => textService.GetText())
 				.Returns(new TextEntity { Text = "TEST" });

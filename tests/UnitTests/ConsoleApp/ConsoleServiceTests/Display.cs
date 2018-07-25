@@ -23,7 +23,8 @@ namespace UnitTests.ConsoleApp.ConsoleServiceTests
 			{
 				Console.SetOut(sw);
 
-				service.Display(new TextViewModel {
+				service.Display(new TextViewModel
+				{
 					Text = "TEST"
 				});
 
