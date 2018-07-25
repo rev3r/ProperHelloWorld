@@ -1,6 +1,6 @@
 ﻿namespace ConsoleApp.ViewModels
 {
-	public class TextViewModel
+	public struct TextViewModel
 	{
 		public string Text { get; }
 

@@ -1,6 +1,6 @@
 ﻿namespace Core.DTOs
 {
-	public class TextDto
+	public struct TextDto
 	{
 		public string Text { get; }
 
