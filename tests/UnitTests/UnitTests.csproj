@@ -14,9 +14,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\ConsoleApp\ConsoleApp.csproj" />
-		<ProjectReference Include="..\Core\Core.csproj" />
-		<ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
+		<ProjectReference Include="..\..\src\ConsoleApp\ConsoleApp.csproj" />
+		<ProjectReference Include="..\..\src\Core\Core.csproj" />
+		<ProjectReference Include="..\..\src\Infrastructure\Infrastructure.csproj" />
 	</ItemGroup>
 
 </Project>
