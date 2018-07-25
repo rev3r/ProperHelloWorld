@@ -24,10 +24,10 @@ I know that this code doesn't check for null anywhere.
 
 This would unnecessarily pollute source code.
 
-Besides, I wrote it to compatible with C# 8 *nullable reference types* feature (yes, that's my excute).
+Besides, I wrote it to compatible with C# 8.0 *nullable reference types* feature (yes, that's my excute).
 
 # ToDo 
 
 The only thing that hurts me, is that I reference `Infrastructure` from `ConsoleApp` (for DI purpose).
 
-I'll fix it some day.
+I'll fix it some day...
