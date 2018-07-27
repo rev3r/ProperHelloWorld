@@ -30,7 +30,6 @@ namespace UnitTests.ConsoleApp.LogicTests
 			A.CallTo(() => consoleService.Display(
 				A<TextViewModel>.That.Not.Matches(vm => vm.Text == "TEST")))
 				.Throws<ArgumentException>();
-
 		}
 
 		[Fact]

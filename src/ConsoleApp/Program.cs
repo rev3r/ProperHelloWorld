@@ -1,9 +1,6 @@
 ﻿using AutoMapper;
 using ConsoleApp.Interfaces;
 using ConsoleApp.Services;
-using ConsoleApp.ViewModels;
-using Core.DTOs;
-using Core.Entities;
 using Core.Interfaces;
 using Core.Services;
 using Infrastructure.TextRepository;
@@ -29,11 +26,7 @@ namespace ConsoleApp
 			container.RegisterType<ITextService, TextService>();
 			container.RegisterType<ITextRepository, TextRepository>();
 
-			var config = new MapperConfiguration(c =>
-			{
-				c.CreateMap<TextDto, TextEntity>();
-				c.CreateMap<TextEntity, TextViewModel>();
-			});
+			var config = new MapperConfiguration(_ => { });
 			container.RegisterInstance(config.CreateMapper());
 		}
 

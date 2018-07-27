@@ -1,5 +1,4 @@
-﻿using AutoMapper;
-using Core.Entities;
+﻿using Core.Entities;
 using Core.Interfaces;
 
 namespace Core.Services
@@ -7,21 +6,15 @@ namespace Core.Services
 	public class TextService : ITextService
 	{
 		private readonly ITextRepository repository;
-		private readonly IMapper mapper;
 
-		public TextService(
-			ITextRepository repository,
-			IMapper mapper)
+		public TextService(ITextRepository repository)
 		{
 			this.repository = repository;
-			this.mapper = mapper;
 		}
 
 		public TextEntity GetText()
 		{
-			var dto = repository.GetWelcomeText();
-
-			return mapper.Map<TextEntity>(dto);
+			return repository.GetWelcomeText();
 		}
 	}
 }

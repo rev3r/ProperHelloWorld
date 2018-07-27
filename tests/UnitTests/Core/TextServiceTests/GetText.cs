@@ -1,6 +1,4 @@
-﻿using AutoMapper;
-using Core.DTOs;
-using Core.Entities;
+﻿using Core.Entities;
 using Core.Interfaces;
 using Core.Services;
 using FakeItEasy;
@@ -15,18 +13,14 @@ namespace UnitTests.Core.TextServiceTests
 		public GetText()
 		{
 			var repository = A.Fake<ITextRepository>();
-			var mapper = A.Fake<IMapper>();
-			service = new TextService(repository, mapper);
+			service = new TextService(repository);
 
 			A.CallTo(() => repository.GetWelcomeText())
-				.Returns(new TextDto("TEST"));
-
-			A.CallTo(() => mapper.Map<TextEntity>(A<TextDto>._))
 				.Returns(new TextEntity("TEST"));
 		}
 
 		[Fact]
-		public void Invokation_ReturnsValidDto()
+		public void Invokation_ReturnsValidEntity()
 		{
 			var result = service.GetText();
 
