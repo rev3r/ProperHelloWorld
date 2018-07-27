@@ -16,10 +16,10 @@ namespace UnitTests.ConsoleApp.LogicTests
 
 		public Run()
 		{
+			var consoleService = A.Fake<IConsoleService>();
 			var textService = A.Fake<ITextService>();
 			var mapper = A.Fake<IMapper>();
-			var consoleService = A.Fake<IConsoleService>();
-			logic = new Logic(textService, mapper, consoleService);
+			logic = new Logic(consoleService, textService, mapper);
 
 			A.CallTo(() => textService.GetText())
 				.Returns(new TextEntity("TEST"));
