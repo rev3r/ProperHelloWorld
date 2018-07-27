@@ -23,7 +23,7 @@ I know that this code doesn't check for potential `null` dereference.
 
 This would unnecessarily pollute source code.
 
-Besides, I wrote it to compatible with C# 8.0 *nullable reference types* feature (yes, that's my excute).
+Besides, I wrote it to compatible with C# 8.0 *nullable reference types* feature (yes, that's my excuse).
 
 # ToDo 
 
