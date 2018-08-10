@@ -30,3 +30,5 @@ Besides, I wrote it to compatible with C# 8.0 *nullable reference types* feature
 The only thing that bothers me, is that I reference `Infrastructure` from `ConsoleApp` (for DI purposes).
 
 I'll fix it some day...
+
+[![Build status](https://rev3r.visualstudio.com/ProperHelloWorld/_apis/build/status/ProperHelloWorld-CI?branch=master)](https://rev3r.visualstudio.com/ProperHelloWorld/_build/latest?definitionId=3&branch=master)]
