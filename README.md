@@ -31,4 +31,4 @@ Besides, I wrote it to compatible with C# 8.0 *nullable reference types* feature
 
 The only thing that bothers me, is that I reference `Infrastructure` from `ConsoleApp` (for DI purposes).
 
-I'll fix it some day...
+I'll fix it some day..
