@@ -1,11 +1,11 @@
-﻿using AutoMapper;
+﻿using System;
+using AutoMapper;
 using ConsoleApp;
 using ConsoleApp.Interfaces;
 using ConsoleApp.ViewModels;
 using Core.Entities;
 using Core.Interfaces;
 using FakeItEasy;
-using System;
 using Xunit;
 
 namespace UnitTests.ConsoleApp.LogicTests

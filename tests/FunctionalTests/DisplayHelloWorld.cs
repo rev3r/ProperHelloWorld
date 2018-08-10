@@ -1,6 +1,6 @@
-﻿using ConsoleApp;
-using System;
+﻿using System;
 using System.IO;
+using ConsoleApp;
 using Xunit;
 
 namespace FunctionalTests

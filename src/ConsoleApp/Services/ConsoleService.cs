@@ -1,6 +1,6 @@
-﻿using ConsoleApp.Interfaces;
+﻿using System;
+using ConsoleApp.Interfaces;
 using ConsoleApp.ViewModels;
-using System;
 
 namespace ConsoleApp.Services
 {

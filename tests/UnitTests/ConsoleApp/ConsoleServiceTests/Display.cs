@@ -1,8 +1,8 @@
-﻿using ConsoleApp.Interfaces;
+﻿using System;
+using System.IO;
+using ConsoleApp.Interfaces;
 using ConsoleApp.Services;
 using ConsoleApp.ViewModels;
-using System;
-using System.IO;
 using Xunit;
 
 namespace UnitTests.ConsoleApp.ConsoleServiceTests
