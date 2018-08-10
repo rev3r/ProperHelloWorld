@@ -6,6 +6,7 @@ using Core.Services;
 using Infrastructure.TextRepository;
 using Unity;
 
+//
 namespace ConsoleApp
 {
 	public class Program
