@@ -31,4 +31,6 @@ The only thing that bothers me, is that I reference `Infrastructure` from `Conso
 
 I'll fix it some day...
 
-[![Build status](https://rev3r.visualstudio.com/ProperHelloWorld/_apis/build/status/ProperHelloWorld-CI?branch=master)](https://rev3r.visualstudio.com/ProperHelloWorld/_build/latest?definitionId=3&branch=master)]
+[![Build status](https://rev3r.visualstudio.com/ProperHelloWorld/_apis/build/status/ProperHelloWorld-CI?branch=master)](https://rev3r.visualstudio.com/ProperHelloWorld/_build/latest?definitionId=4&branch=master)
+
+[![Build status](https://rev3r.visualstudio.com/ProperHelloWorld/_apis/build/status/ProperHelloWorld-CI)](https://rev3r.visualstudio.com/ProperHelloWorld/_build/latest?definitionId=4)
