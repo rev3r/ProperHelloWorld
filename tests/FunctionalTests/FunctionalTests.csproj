@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>netcoreapp2.1</TargetFramework>
+		<TargetFramework>netcoreapp2.2</TargetFramework>
 		<LangVersion>latest</LangVersion>
 		<IsPackable>false</IsPackable>
 	</PropertyGroup>
@@ -15,4 +15,5 @@
 	<ItemGroup>
 		<ProjectReference Include="..\..\src\ConsoleApp\ConsoleApp.csproj" />
 	</ItemGroup>
+
 </Project>
