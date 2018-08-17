@@ -1,0 +1,13 @@
+<Project>
+
+	<PropertyGroup>
+		<Authors>Grzegorz Lang</Authors>
+		<RepositoryUrl>https://github.com/rev3r/ProperHelloWorld</RepositoryUrl>
+		<NeutralLanguage>en-US</NeutralLanguage>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<LangVersion>latest</LangVersion>
+	</PropertyGroup>
+
+</Project>
