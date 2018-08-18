@@ -26,8 +26,8 @@ namespace ConsoleApp
 			container.RegisterType<ITextService, TextService>();
 			container.RegisterType<ITextRepository, TextRepository>();
 
-			var config = new MapperConfiguration(_ => { });
-			container.RegisterInstance(config.CreateMapper());
+			container.RegisterInstance(
+				new MapperConfiguration(_ => { }).CreateMapper());
 		}
 
 		private static ILogic CreateLogic()
