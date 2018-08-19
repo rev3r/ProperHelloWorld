@@ -10,7 +10,7 @@ namespace ConsoleApp
 {
 	public class Program
 	{
-		private static readonly UnityContainer container = new UnityContainer();
+		private static readonly IUnityContainer container = new UnityContainer();
 
 		public static void Main()
 		{
