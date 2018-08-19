@@ -2,7 +2,7 @@
 
 # Reason
 
-Everyone start learning how to code by writing simple *Hello World* program:
+Everyone starts learning how to code by writing simple *Hello World* program:
 ```C#
 using System;
 
@@ -21,14 +21,12 @@ I should use **layers**.
 
 # Null checking
 
-I know that this code doesn't check for potential `null` dereference.
+I know that this code doesn't check for potential `null` dereferences. But this would unnecessarily pollute source code.
 
-This would unnecessarily pollute source code.
-
-Besides, I wrote it to compatible with C# 8.0 *nullable reference types* feature (yes, that's my excuse).
+Besides, I wrote it to be compatible with C# 8.0 *nullable reference types* feature (yes, that's my excuse).
 
 # ToDo 
 
 The only thing that bothers me, is that I reference `Infrastructure` from `ConsoleApp` (for DI purposes).
 
-I'll fix it some day...
+I'll fix it some day... Maybe...
