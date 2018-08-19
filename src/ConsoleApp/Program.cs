@@ -8,7 +8,7 @@ using Unity;
 
 namespace ConsoleApp
 {
-	public class Program
+	public static class Program
 	{
 		private static readonly IUnityContainer container = new UnityContainer();
 
