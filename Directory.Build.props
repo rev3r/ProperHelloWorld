@@ -10,4 +10,9 @@
 		<LangVersion>latest</LangVersion>
 	</PropertyGroup>
 
+	<PropertyGroup>
+		<NetCoreVersion>2.2</NetCoreVersion>
+		<NetStandardVersion>2.0</NetStandardVersion>
+	</PropertyGroup>
+
 </Project>
