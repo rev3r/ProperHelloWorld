@@ -11,8 +11,8 @@
 	</PropertyGroup>
 
 	<PropertyGroup>
-		<NetCoreVersion>2.2</NetCoreVersion>
 		<NetStandardVersion>2.0</NetStandardVersion>
+		<NetCoreVersion>2.2</NetCoreVersion>
 	</PropertyGroup>
 
 </Project>
