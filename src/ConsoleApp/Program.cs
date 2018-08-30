@@ -35,4 +35,4 @@ namespace ConsoleApp
 			return container.Resolve<ILogic>();
 		}
 	}
-}
+}//
