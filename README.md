@@ -1,5 +1,3 @@
-[![Build status](https://rev3r.visualstudio.com/ProperHelloWorld/_apis/build/status/ProperHelloWorld-CI?branch=master)](https://rev3r.visualstudio.com/ProperHelloWorld/_build/latest?definitionId=5&branch=master)
-
 # Reason
 
 Everyone starts learning how to code by writing simple *Hello World* program:
