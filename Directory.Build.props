@@ -11,7 +11,7 @@
 
 	<PropertyGroup>
 		<NetStandardVersion>2.0</NetStandardVersion>
-		<NetCoreVersion>2.2</NetCoreVersion>
+		<NetCoreVersion>3.0</NetCoreVersion>
 	</PropertyGroup>
 
 </Project>
